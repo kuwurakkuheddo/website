@@ -1,0 +1,107 @@
+body {
+    background-color: indigo;
+    font-family: 'Anonymous Pro', monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.column {
+    min-width: 532px;
+    max-width: 532px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid indigo;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+
+.alex {
+    background-color: black;
+    padding: 20px;
+    border: 2px solid black;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+}
+
+h1 {
+    color: white;
+    margin: 0;
+}
+
+p {
+    color: white;
+    background-color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 0;
+}
+
+a {
+    text-decoration: underline;
+    color: #FFAAAA;
+    background-color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5em;
+    margin: 20px;
+    width: 50%;
+}
+
+.lastfm {
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+#song {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5em;
+    margin: auto;
+    word-wrap: break-word;
+}
+
+.songtext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    word-wrap: break-word;
+}
+
+.trackname {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    word-wrap: break-word;
+}
+
+.artist {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    word-wrap: break-word;
+}
